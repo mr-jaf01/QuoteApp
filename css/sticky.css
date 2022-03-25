@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+   height: 100%;
+}
+body{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid{
+    flex: 1 0 auto;
+    
+     
+}
+
+
+.footer-app{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    padding:10px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #131415;
+    
+    
+}
+
+.footer-app a i{
+    color:white;
+    font-size: 23px;
+    
+}
+.footer-app a i sub{
+    border-radius: 50%;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    padding:3px;
+    
+}
+
+.footer-app a i sup{
+     border-radius: 50%;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    padding:3px;
+    
+}

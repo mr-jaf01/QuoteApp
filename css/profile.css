@@ -1,0 +1,64 @@
+.profile-page {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    
+}
+.header-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+.header-img img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.header-img a span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.edit-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.best-qoute-title{
+    font-size: 13px;  
+}
+.personal-info-title{
+    font-size: 13px; 
+}
+.best-qoute-body{
+    word-break: break-all;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+.info-tag{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.editlink{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}

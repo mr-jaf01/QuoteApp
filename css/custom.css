@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background: #131415;    
+}
+.btns{
+   display: flex;
+   flex-direction: column;
+
+ }
+ .btns a{
+    border-radius: 19px;
+    cursor: pointer;  
+ }
+ 
+ 
+ /* Login Page styleing */
+ 
+ /*end of login Page styling */
+ 
+  /*Regsiter Page styleing */
+ 
+
+ .register-main-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+ }
+ .register-main-app input{
+     margin-bottom: 20px;
+     border-radius: 19px;
+     padding-left: 10px;
+     background-color: #1c1d1e;
+     border: none;
+     color:white;
+     height: 40px;
+     
+     
+}
+ .register-main-app button{
+     border-radius: 19px;
+     text-align: center;
+     
+ }
+ /*end of register Page styling */
+ .alert-danger{
+     border-radius: 19px;
+     background-color: #1c1d1e;
+     font-weight: bold;
+     color: red;
+}
+.alert-success{
+     border-radius: 19px;
+     background-color: #1c1d1e;
+     font-weight: bold;
+     color: wheat; 
+}
+.forgotlinks{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+     padding: 10px;
+     align-items: center;
+     justify-content: center;
+     
+}
+.forgotlinks a{
+    font-size: 13px;
+    
+}
+
+.forgotlinks span{
+    font-size: 13px;
+}
+.header-curve{
+    height: 80px;
+    background: #212121;
+   
+    
+}
+
+    
